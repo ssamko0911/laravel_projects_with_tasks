@@ -1,6 +1,6 @@
 ## About this project
 
-This will is an example of simple system for keeping track of project tasks:
+This is an example of simple system for keeping track of project tasks:
 
 • Basic registration is present (user registration + login);
 
