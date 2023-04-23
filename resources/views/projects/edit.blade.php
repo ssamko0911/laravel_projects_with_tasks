@@ -20,7 +20,7 @@
                                 <h3 class="mb-4">Edit Project</h3>
                                 <div class="form-floating mb-3">
                                     <input type="text" name="title" class="form-control" id="floatingInput"
-                                           value="{{ old($project->title) }}"
+                                           value="{{ $project->title }}"
                                            placeholder="Project title">
                                     <label for="floatingInput">Title</label>
                                     @error('title')
@@ -30,7 +30,7 @@
                                 <div class="form-floating mb-3">
                                 <textarea class="form-control" name="description" placeholder="Leave a comment here"
                                           id="floatingTextarea" style="height: 150px;"
-                                >{{ old($project->description) }}</textarea>
+                                >{{ $project->description }}</textarea>
                                     <label for="floatingTextarea">Description</label>
                                     @error('description')
                                     <p class="alert-danger">{{ $message }}</p>
